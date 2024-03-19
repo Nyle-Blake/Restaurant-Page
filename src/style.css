@@ -74,7 +74,7 @@ header h1 {
   color: var(--accent);
 }
 
-.content {
+main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
