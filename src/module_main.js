@@ -20,8 +20,8 @@ const createMain = () => {
     .appendChild(logo)
     .insertAdjacentElement('afterend', document.createElement('nav'))
     .appendChild(btn1)
-    .insertAdjacentElement(btn2)
-    .insertAdjacentElement(btn3)
+    .insertAdjacentElement('afterend', btn2)
+    .insertAdjacentElement('afterend', btn3)
 
   const box1 = document.createElement('div')
   const box2 = document.createElement('div')
@@ -41,7 +41,9 @@ const createMain = () => {
     .appendChild(box1)
     .insertAdjacentElement('afterend', box2)
   
-  document.appendChild(container)
+  document.body.appendChild(container);
+
+  console.log('hello')
 
   return;
 

@@ -5,11 +5,11 @@ import { createMain } from './module_main.js';
 // import { createContacts } from './module_contacts.js';
 
 const mainBtn = document.querySelector('#main');
-const menuBtn = document.querySelector('#menu');
-const contactsBtn = document.querySelector('#contacts');
+// const menuBtn = document.querySelector('#menu');
+// const contactsBtn = document.querySelector('#contacts');
 
 mainBtn.addEventListener('click', () => {
-  createMain
+  createMain();
 })
 
 // menuBtn.addEventListener('click', () => {
@@ -20,4 +20,4 @@ mainBtn.addEventListener('click', () => {
 //   createContacts
 // })
 
-createMain;
+createMain();
